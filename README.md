@@ -1,3 +1,5 @@
-# Go_Server
-Server that collects information from the dynamoDB table. The "worker" is what sends the information
-to the dynamoDB table
+# AWS Project
+
+Go program that uses the Alpha Vantage api to grab aws stock market information in JSON format and stores it in a DynamoDB table on amazons ec2 servers. 
+
+Uses docker for easy deployment.
